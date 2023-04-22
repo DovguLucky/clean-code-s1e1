@@ -13,7 +13,7 @@ body {
 .todo-logo img {
     width: 100%;
 }
-.todo-logo .todo-logo__link {
+.todo-logo h2 {
     font-family: fantasy, cursive;
 }
 
@@ -46,7 +46,7 @@ h3 {
     list-style: none;
 }
 input,
- button{
+button{
     outline: none;
 }
 button {

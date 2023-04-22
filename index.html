@@ -6,12 +6,15 @@
     <link rel="stylesheet" href="style.css"  media="screen" charset="utf-8">
   </head>
   <body>
-    <div class="todo-logo"><img src="./eisenhower-matrix.jpg"><a class="todo-logo__link" 
-        href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a></div>
-    <div class="todo-form">
-      <p id="todo-form__add"><label for="new-task">Add Item</label>
+    <article class="todo-logo"><img src="./eisenhower-matrix.jpg">
+      <h2><a class="todo-logo__link" 
+        href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      </h2>
+    </article>
+    <section class="todo-form">
+      <div id="todo-form__add"><label for="new-task">Add Item</label>
         <div class="todo-form__add-input"><input id="new-task" class="name-input" type="text"><button>Add</button></div>
-      </p>
+      </div>
       <h3>Todo</h3>
       <ul id="todo__incomplete-list">
         <li><input type="checkbox"><label class="name-input">Pay Bills</label><input 
@@ -27,7 +30,7 @@
             type="text" class="name-input"><button class="btn">Edit</button><button class="delete"><img 
                 src="./remove.svg"></button></li> 
       </ul>
-    </div>
+    </section>
     <script  src="app.js"></script>
   </body>
 </html>
